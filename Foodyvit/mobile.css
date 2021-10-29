@@ -1,0 +1,243 @@
+@media (max-width: 992px) { 
+    /* Navbar */
+.navbar .navbar-nav .nav-link {
+    color: #FDC20C;
+    font-size: 1.1em;
+    position: relative;
+  }
+  
+  #Navbar .navbar-expand-lg{
+    background: linear-gradient(to right, #ffffff, #00000000);
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #FDC20C;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FDC20C;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+    transition: all 0.5s;
+    border-radius: 50px;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  #Navbar img {
+    height: 33px;
+    width: auto;
+    object-fit: cover;
+  }
+  
+  #Navbar ul li {
+    margin-left: 58px;
+    font-family: 'Raleway', sans-serif;
+  }
+  /* End Navbar */
+  
+  /* Banner */
+  
+  #Banner .Content {
+  margin-top: 138px;
+  }
+  
+  #Banner .Content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600px;
+  }
+  
+  #Banner .Content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ACACAC;
+  }
+  
+  #Banner .Content button {
+  border-radius: 50px;
+  width: 190px;
+  height: 47px;
+  margin-right: 19px;
+  }
+  
+  #Banner img {
+    width: auto;
+    height: 20%;
+    object-fit: cover;
+    
+  }
+  /* End Baner */
+  
+  /* Isi */
+  #Isi img {
+  width: auto;
+  height: 20%;
+  object-fit: cover;
+  
+  }
+  
+  #Isi .Text {
+  margin-top: 209px;
+  }
+  
+  #Isi .Text h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #84D387;
+  }
+  
+  #Isi .Text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  }
+  
+  #Isi .Text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ACACAC;
+  }
+  
+  
+  #Isi .Text button {
+  background-color: #FDC20C;
+  border-radius: 50px;
+  width: 190px;
+  height: 47px;
+  }
+  /* End Isi */
+  
+  /* Menu */
+  #Menu h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 32px;
+  }
+  
+  #Menu h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ACACAC;
+  margin-bottom: 98px;
+  }
+  
+  #Menu .btn {
+  background: #FDC20C;
+  border-radius: 50px;
+  width: auto;
+  height: 47px;
+  }
+  
+  #Menu .card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  }
+  /* End Menu */
+  
+  /* Contact */
+  #Contact h2{
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 312px;
+  }
+  
+  #Contact .input-group {
+    width: auto;
+    height: 58px;
+    margin-top: 63px;
+    border: 2px solid #FDC20C;
+    border-radius: 5px;
+  }
+  
+  #Contact button {
+    background: #FDC20C;
+    border-radius: 50px;
+    width: 190px;
+    height: 47px;
+    margin-top: 47px;
+    color: #ffffff;
+  }
+  /* End Contact */
+  
+  /* Footer */
+  #Footer hr{
+  margin-top: 291px;
+  border: 2px solid #ffbb00;
+  }
+  
+  #Footer .logo img {
+  width: 108px;
+  height: 28px;
+  margin-bottom: 25px;
+  }
+  
+  #Footer p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ACACAC;
+  margin-bottom: 53px;
+  }
+  
+  #Footer .bi-facebook, 
+  .bi-instagram, 
+  .bi-twitter, 
+  .bi-youtube {
+  font-size: 32px;
+  }
+  
+  #Footer .bi-facebook:hover,
+  .bi-instagram:hover, 
+  .bi-twitter:hover, 
+  .bi-youtube:hover {
+  color: #FDC20C;
+  }
+  
+  #Footer .title h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  
+  #Footer ul {
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  #Footer ul li {
+  list-style: none;
+  padding: 6px 0px;
+  font-size: 16px;
+  }
+  
+  #Footer a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ACACAC;
+  }
+  
+  #Footer h6 {
+  margin-top: 97px;
+  }
+  /* End Footer */
+}
